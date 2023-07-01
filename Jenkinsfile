@@ -6,7 +6,7 @@ pipeline
         stage('contdown')
         {
             steps{
-                     git 'https://github.com/intelliqittrainings/maven.git'   
+                     git 'https://github.com/kiransmc9/maven_kiran.git'   
                  }
         }
         stage('contbuild')
